@@ -13,6 +13,7 @@ function ParentComponent() {
   // causing ChildComponent to re-render unnecessarily.
   const handleClick = useCallback(() => {
     setCount((prevCount) => prevCount + 1);
+    console.log("I am trying to use something new on git");
   }, []);
 
   // const handleClick = () => {
